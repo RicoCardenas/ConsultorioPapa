@@ -1,0 +1,20 @@
+
+.header-contact {
+    min-width: 320px;
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+.header-nav div .image-logo{
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+}
+
+.header-nav .list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

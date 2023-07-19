@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(233, 233, 233, 0.863), rgba(233, 233, 233, 0.863)), url(../assets/20años.svg) no-repeat center center fixed;
+    background-size: contain;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+.header-contact{
+    opacity: 0.8;
+    font-size: 1.6rem;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    min-width: 310px;
+    background-color: rgb(24, 24, 24);
+    color: rgb(212, 212, 212);
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(212, 212, 212);
+    margin-left: 10px ;
+}
+
+.header-contact a:hover{
+    color: turquoise;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.header-nav div .image-logo {
+    padding-left: 20px;
+    width: 420px;
+    min-width: 310px;
+}
+
+.header-nav .list {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.header-nav div .list-nav{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header-nav div nav a {
+    text-decoration: none;
+    color: rgba(140, 140, 140, 0.879);
+    font-size: 2rem;
+}
+
+.header-nav div nav a:hover {
+    color: rgb(0, 0, 0);
+    font-size: 2.3rem;
+}
+
+main {
+
+}
