@@ -1,12 +1,10 @@
-.header-nav .list {
-    width: 320px;
-    min-width: 320px;
-    justify-content: center;
+.nav {
     display: flex;
-    margin-left:calc(50% - 160px) ;
-    text-align: center;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: center;
 }
 
-.header-nav div .list-nav {
-    margin-bottom: 10px;
+.nav li{
+    margin: 0 10px;
 }

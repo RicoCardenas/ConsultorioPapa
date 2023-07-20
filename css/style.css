@@ -1,3 +1,8 @@
+:root{
+    /* Colores */
+    --turquesa: rgba(3, 236, 116, 0.833);
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,74 +15,140 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(rgba(233, 233, 233, 0.863), rgba(233, 233, 233, 0.863)), url(../assets/20años.svg) no-repeat center center fixed;
     background-size: contain;
 }
+
 header{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
 }
-.header-contact{
-    opacity: 0.8;
-    font-size: 1.6rem;
-    display: flex;
-    height: 40px;
+
+.header-logo div {
+    background: linear-gradient(rgba(138, 255, 189, 0.863), rgba(138, 255, 189, 0.863)),  url(../assets/papa.jpg) no-repeat center center;
+    background-size: cover;
+    min-width: 320px;
+}
+
+.header-logo div .image-logo {
     width: 100%;
     min-width: 310px;
-    background-color: rgb(24, 24, 24);
-    color: rgb(212, 212, 212);
-    font-weight: bolder;
-    justify-content: center;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.header-logo div .image-logo:hover{
+    transform: scale(0.9) ;
+}
+
+.header-logo {
+    width: 100%;
+    height: auto;
+}
+
+.header-contact{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    font-size: 1.6rem;
+    min-width: 310px;
+    background-color: var(--turquesa);
+    color: rgba(255, 255, 255, 0.922);
+    font-weight: bolder;
+    box-shadow: 0px 0px 13px 1px rgb(184, 251, 182);
+    opacity: 0.8;
 }
 
 .header-contact a{
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
     color: rgb(212, 212, 212);
     margin-left: 10px ;
 }
 
 .header-contact a:hover{
-    color: turquoise;
-}
-
-.header-nav {
-    display: flex;
-    width: 100%;
-    height: 150px;
-    justify-content: space-between;
-}
-
-.header-nav div .image-logo {
-    padding-left: 20px;
-    width: 420px;
-    min-width: 310px;
-}
-
-.header-nav .list {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
-
-.header-nav div .list-nav{
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.header-nav div nav a {
-    text-decoration: none;
-    color: rgba(140, 140, 140, 0.879);
+    color: #176B87;
     font-size: 2rem;
 }
 
-.header-nav div nav a:hover {
-    color: rgb(0, 0, 0);
-    font-size: 2.3rem;
+.header-contact p {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.header-contact h1 {
+    font-size: 2.5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 35px;
+    min-width: 320px;
+    font-weight: 600;
+    background-color: var(--turquesa);
+    box-shadow: 0px 0px 10px -2px rgb(39, 39, 39);
+    opacity: 0.8;
+    list-style-type: none;
+}
+
+.nav li {
+    margin: 0 35px;
+    float: left;
+    font-size: 1.9rem;
+    color: azure;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.nav li:hover {
+    color: #176b87;
+    transform: scale(1.1);
 }
 
 main {
-
+    width: 100%;
+    min-width: 320px;
+    height: auto;
 }
+
+.objetives {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.objetives .objetives--vision {
+    width: 500px;
+    height: auto;
+}
+
+.objetives .objetives--vision h2 {
+    position: absolute;
+    left: 25px;
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+}
+
+.objetives .objetives--vision p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #3e3e3e;
+    line-height: 2.1rem;
+}
+

@@ -3,18 +3,16 @@
     min-width: 320px;
 }
 
-.header-nav {
+.header-logo {
     display: inline-block;
 }
 
-.header-nav div .image-logo{
+.header-logo div .image-logo{
     width: 100%;
     height: auto;
     padding-left: 0;
 }
 
-.header-nav .list{
-    display: flex;
-    justify-content: center;
-    margin: 0;
+.nav li {
+    margin: 0 12px;
 }
