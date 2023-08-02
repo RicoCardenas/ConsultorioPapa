@@ -1,5 +1,5 @@
 .nav {
-    display: flex;
+    margin: 0;
     flex-wrap: wrap;
     height: 50px;
     justify-content: center;
@@ -8,3 +8,4 @@
 .nav li{
     margin: 0 10px;
 }
+

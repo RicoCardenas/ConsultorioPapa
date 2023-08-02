@@ -1,4 +1,3 @@
-
 .header-contact {
     min-width: 320px;
 }
@@ -16,3 +15,207 @@
 .nav li {
     margin: 0 12px;
 }
+
+.objetives .objetives--vision{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.objetives .objetives--vision h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.objetives .objetives--vision p{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.objetives .objetives--objetives{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.objetives .objetives--objetives h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.objetives .objetives--objetives p{
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-surgery .left--surgery {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-surgery .left--surgery .img--left--surgery img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-surgery .left--surgery .p--left--surgery p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-surgery .left--surgery .img--left--surgery h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.odontology .odontology-surgery .right--surgery {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-surgery .right--surgery .img--right--surgery img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-surgery .right--surgery .p--right--surgery p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-surgery .right--surgery .img--right--surgery h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.odontology .odontology-general .left--general {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-general .left--general .img--left--general img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-general .left--general .p--left--general p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-general .left--general .img--left--general h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.odontology .odontology-general .right--general {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-general .right--general .img--right--general img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-general .right--general .p--right--general p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-general .right--general .img--right--general h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .img--bichectomia img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .p--bichectomia p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .img--bichectomia h2 {
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .img--liposuction img {
+    width: 100%;
+    padding: 0 25px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .p--liposuction p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .img--liposuction h2 {
+    padding: 0 auto ;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

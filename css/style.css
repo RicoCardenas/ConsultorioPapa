@@ -1,7 +1,11 @@
 :root{
     /* Colores */
-    --turquesa: rgba(3, 236, 116, 0.833);
+    --turquoise: rgba(3, 236, 116, 0.833);
+    --bright-gray: #ececec;
+    --light-grey: #cacaca
 }
+
+/* STYLE */
 
 *{
     box-sizing: border-box;
@@ -59,7 +63,7 @@ header{
     padding: 5px;
     font-size: 1.6rem;
     min-width: 310px;
-    background-color: var(--turquesa);
+    background-color: var(--turquoise);
     color: rgba(255, 255, 255, 0.922);
     font-weight: bolder;
     box-shadow: 0px 0px 13px 1px rgb(184, 251, 182);
@@ -69,13 +73,18 @@ header{
 .header-contact a{
     text-decoration: underline;
     font-weight: bold;
-    color: rgb(212, 212, 212);
-    margin-left: 10px ;
+    color: rgb(125, 125, 125);
+    margin-left: 10px;
+    border: solid 1px #97DECE;
+    padding: 5px 10px;
+    background-color: #97DECE;
+    border-radius: 10px;
 }
 
 .header-contact a:hover{
     color: #176B87;
     font-size: 2rem;
+    box-shadow: 0px 0px 11px -2px rgba(43,43,43,1);
 }
 
 .header-contact p {
@@ -87,17 +96,21 @@ header{
     font-size: 2.5rem;
 }
 
+.nav-container {
+    width: 100%;
+    min-width: 320px;
+}
+
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     width: 100%;
     height: 35px;
     min-width: 320px;
     font-weight: 600;
-    background-color: var(--turquesa);
+    background-color: var(--turquoise);
     box-shadow: 0px 0px 10px -2px rgb(39, 39, 39);
     opacity: 0.8;
     list-style-type: none;
@@ -123,32 +136,408 @@ main {
     height: auto;
 }
 
-.objetives {
+.dr-alexis-cardenas {
     display: flex;
-    justify-content: center;
-    padding-top: 25px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.dr-alexis-cardenas .dr-alexis-cardenas--picture img {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.dr-alexis-cardenas .dr-alexis-cardenas--picture img:hover {
+    transform: scale(1.1);
+}
+
+.dr-alexis-cardenas .dr-alexis-cardenas--name h2 {
     width: 100%;
     height: auto;
     text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: 700;
 }
 
-.objetives .objetives--vision {
-    width: 500px;
+.objetives {
+    padding-top: 50px;
+    width: 100%;
     height: auto;
 }
 
+.objetives .objetives--vision {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: #faf8f7da;
+    box-shadow: 0px 0px 11px -2px rgb(123, 123, 123);
+}
+
 .objetives .objetives--vision h2 {
-    position: absolute;
-    left: 25px;
     font-size: 2.9rem;
     font-family: 'Andika', sans-serif;
     font-weight: bold;
+    margin-left: 20px;
+    color: #3e3e3e;
 }
 
 .objetives .objetives--vision p {
-    font-size: 1.5rem;
+    padding-left: 25px;
+    max-width: 700px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #333333;
+    line-height: 2.1rem;
+    text-align: justify;
+}
+
+.objetives .objetives--objetives {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    padding: 40px 100px ;
+}
+
+.objetives .objetives--objetives h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #333333;
+}
+
+.objetives .objetives--objetives p {
+    padding-right: 25px;
+    max-width: 700px;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #3e3e3e;
     line-height: 2.1rem;
+    text-align: justify;
 }
+
+.objetives .objetives--objetives p span {
+    font-weight: bold;
+    color: rgb(0, 255, 149);
+}
+
+.objetives .team-work {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+
+.objetives .team-work .team-work--picture {
+    width: 100%;
+}
+
+.odontology {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.odontology .odontology-surgery {
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+.odontology .odontology-surgery .left--surgery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #111111da;
+    box-shadow: 0px 0px 20px 15px rgb(95, 95, 95);
+}
+
+.odontology .odontology-surgery .left--surgery .img--left--surgery {
+    display: inline;
+}
+
+.odontology .odontology-surgery .left--surgery .img--left--surgery h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    color: var(--light-grey);
+    text-align: center;
+}
+
+.odontology .odontology-surgery .left--surgery .img--left--surgery img{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-surgery .left--surgery .p--left--surgery {
+    display: flex;
+    align-items: center;
+}
+
+.odontology .odontology-surgery .left--surgery .p--left--surgery p {
+    padding-left: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 2.9rem;
+    text-align: justify;
+}
+
+.odontology .odontology-surgery .right--surgery {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #787878da;
+    flex-direction: row-reverse;
+}
+
+.odontology .odontology-surgery .right--surgery .img--right--surgery {
+    display: inline;
+}
+
+.odontology .odontology-surgery .right--surgery .img--right--surgery h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    color: var(--bright-gray);
+    text-align: center;
+}
+
+.odontology .odontology-surgery .right--surgery .img--right--surgery img{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-surgery .right--surgery .p--right--surgery {
+    display: flex;
+    align-items: center;
+}
+
+.odontology .odontology-surgery .right--surgery .p--right--surgery p {
+    padding-right: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--bright-gray);
+    line-height: 2.9rem;
+    text-align: justify;
+}
+
+.odontology .odontology-general {
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+.odontology .odontology-general .left--general {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #111111da;
+    box-shadow: 0px 0px 20px 15px rgb(95, 95, 95);
+}
+
+.odontology .odontology-general .left--general .img--left--general {
+    display: inline;
+}
+
+.odontology .odontology-general .left--general .img--left--general h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    color: var(--light-grey);
+    text-align: center;
+}
+
+.odontology .odontology-general .left--general .img--left--general img{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-general .left--general .p--left--general {
+    display: flex;
+    align-items: center;
+}
+
+.odontology .odontology-general .left--general .p--left--general p {
+    padding-left: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--light-grey);
+    line-height: 2.9rem;
+    text-align: justify;
+}
+
+.odontology .odontology-general .right--general {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #787878da;
+    flex-direction: row-reverse;
+}
+
+.odontology .odontology-general .right--general .img--right--general {
+    display: inline;
+}
+
+.odontology .odontology-general .right--general .img--right--general h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    color: var(--bright-gray);
+    text-align: center;
+}
+
+.odontology .odontology-general .right--general .img--right--general img{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-general .right--general .p--right--general {
+    display: flex;
+    align-items: center;
+}
+
+.odontology .odontology-general .right--general .p--right--general p {
+    padding-right: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--bright-gray);
+    line-height: 2.9rem;
+    text-align: justify;
+}
+
+.odontology .odontology-aesthetic {
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #11a679da;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .img--bichectomia {
+    display: inline;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .img--bichectomia h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: var(--bright-gray);
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .img--bichectomia img {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .p--bichectomia {
+    display: inline;
+    margin: auto 0;
+}
+
+.odontology .odontology-aesthetic .bichectomia--aesthetic .p--bichectomia p {
+    padding-right: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    text-align: justify;
+    color: var(--bright-gray);
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    background-color: #53a48cda;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .img--liposuction{
+    display: inline;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .img--liposuction h2 {
+    font-size: 2.9rem;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: var(--bright-gray);
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .img--liposuction img {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .p--liposuction {
+    display: flex;
+    align-items: center;
+}
+
+.odontology .odontology-aesthetic .liposuction--aesthetic .p--liposuction p {
+    padding-left: 25px;
+    max-width: 700px;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    text-align: justify;
+    color: var(--bright-gray);
+}
+
+
+
+
+
+
+
 
